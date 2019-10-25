@@ -1,0 +1,42 @@
+有间隔版本:
+ ->    .               !                          *                       -(单目)                     +                      -
+nnn nnn nnnnnnnnnnnnn nnnnnnnnnnnnn nnnnnnnnnnnnn nnyyynnnnnnnn nnyyynnnnnnnn
+             *                       /                          %                       >                       <
+nnnnnnnnnnnnn nnnnnnnnnnnnn nnnnnnnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn
+            >=                   <=                   ==                      <>                     &&                    ||
+yyyyynnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn yyyyyyyyyyynn yyyyyyyyyyyyn
+
+
+3个代表( -> . [) -> (nnn)
+13个分别代表(+ - * / % > < >= <= == <> && ||)->(yyyyynnnnnnnn)
+无间隔版本:
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnyyynnnnnnnnnnyyynnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyyyyyyyynnyyyyyyyyyyyyn
+
+
+
+new:
+         !		   *	           -(单目)		+	     -
+nnnnnnnnnnnnn nnnnnnnnnnnnn nnnnnnnnnnnnn nnyyynnnnnnnn nnyyynnnnnnnn 
+	*	   / 		%		>	   <
+nnnnnnnnnnnnn nnnnnnnnnnnnn nnnnnnnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn 
+	>=	<=		==	     <>		&&
+yyyyynnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn yyyyyyyyyyynn
+       ||	           ->    .
+yyyyyyyyyyyyn nnn nnn
+
+无间隔:
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnyyynnnnnnnnnnyyynnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyyyyyyyynnyyyyyyyyyyyynnnnnnn
+
+
+2.03:
+	!		-(dan)		*(dan)		+	-
+yyy nnnnnnnnnnnnn nnnnnnnnnnnnn yyyy nnnnnnnnnnnnn nnyyynnnnnnnn nnyyynnnnnnnn
+	*	/		%		> 	<
+nnnnnnnnnnnnn nnnnnnnnnnnnn nnnnnnnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn 
+     >=		<=		==	    <>		&&		||
+yyyyynnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn yyyyyyyyyyynn yyyyyyyyyyyyn
+->    .
+nnn nnn
+
+
+

@@ -1,0 +1,11 @@
+<var_name> @ <var_name> [ integer ]改为:<var_name> @ <var_name> [ <exp> ] o
+
+
+
+增加:<single_var_dec> @ <type_specify> <dec_var_name> = { <val_list> } ; o
+
+增加:<var_name> @ * <exp> o
+
+删除:<exp> @ * <exp> o
+
+增加:<var_name> @ ( <var_name> ) o

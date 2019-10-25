@@ -1,0 +1,55 @@
+DecVarNameAST.cpp文件中Exception的row设为了0，但并不是
+
+
+注：所有...List里面的元素顺序都是反着的，要记得把他倒转回来
+
+
+a-2会解读为-2
+
+
+静态语义检查：
+声明函数时的检查是否重定义并加入map   over?
+定义结构体时的检查并加入map  over?
+变量使用时的检查 
+函数调用时的检查  over?
+使用结构体时的检查   变量定义时检查结构体是否定义，变量使用时检查结构体的内部结构             <var_name> @ <var_name> . <var_name>时? 
+定义变量时的检查并加入var_table  over?
+检查explist 里各个exp的类型是否一致  over?
+
+
+
+
+
+<id_item> @ <dec_var_name>
+<id_item> @ <dec_var_name> = <exp>
+<id_item> @ <dec_var_name> = { <exp_list> }这三句的静态语义分析:在<var_dec> @ <type_specify> <id_list> ;中分析     over
+
+
+
+over:?
+<var_name> @ <var_name> -> <var_name>
+<var_name> @ <var_name> . <var_name> 的是否是数组的问题
+<var_name> @ <var_name> [ integer ] 如果rVar是数组，则lVar不是数组，如果rVar不是数组，报错
+<var_name> @ *<var_name>?
+<var_name> @ ( <var_name> ) ?
+
+
+
+
+detail无法显示？
+
+
+<exp> @ <var_name>的静态语义分析？？？
+
+
+
+使用形参
+
+
+Varible类的toType和finalToType(都要使用)
+
+关于指针不能赋初值，只有char* 是可以的,但必须要求初值为string
+
+
+
+
