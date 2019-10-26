@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\AST源文件">
+      <UniqueIdentifier>{e5129ac2-96eb-4211-a9c1-1a40ec2917f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AST头文件">
+      <UniqueIdentifier>{8f12ed8e-42f8-4cfc-9087-3cb2da873418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\FromAutoTools">
+      <UniqueIdentifier>{8c00a770-f7ca-492c-abb7-377946b5a276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\FromLexer">
+      <UniqueIdentifier>{fa68ccf6-f054-468a-ba44-cda6612440a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FromAutoTools">
+      <UniqueIdentifier>{ebe24491-7fb3-4271-9d85-e1b42d2a80fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FromLexer">
+      <UniqueIdentifier>{4be57a55-ac76-41fa-9d1c-2c9e996c73a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignStmtAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakStmtAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ContinueStmtAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DecExpAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncCallStmtAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IfStmtAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnStmtAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StmtAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StmtsAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WhileStmtAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DecVarNameAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectTypeSpecifyAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FormalParaItemAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FormalParaListAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncDefineAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IdItemAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IdListAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerTypeSpecifyAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RealParaItemAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RealParaListAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleVarDecAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeSpecifyAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ValAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VarDecAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VarListAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VarNameAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StructDecAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EndAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CharAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IdentifierAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IntAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherSymAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RealAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="unitTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FromAutoTools\Reader.cpp">
+      <Filter>源文件\FromAutoTools</Filter>
+    </ClCompile>
+    <ClCompile Include="FromAutoTools\ProductionSym.cpp">
+      <Filter>源文件\FromAutoTools</Filter>
+    </ClCompile>
+    <ClCompile Include="FromAutoTools\Production.cpp">
+      <Filter>源文件\FromAutoTools</Filter>
+    </ClCompile>
+    <ClCompile Include="FromLexer\MyLexer.cpp">
+      <Filter>源文件\FromLexer</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpListAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ValListAST.cpp">
+      <Filter>源文件\AST源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DecExpAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignStmtAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakStmtAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ContinueStmtAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncCallStmtAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IfStmtAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnStmtAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StmtAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StmtsAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WhileStmtAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DecVarNameAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectTypeSpecifyAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FormalParaItemAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FormalParaListAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncDefineAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IdItemAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IdListAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerTypeSpecifyAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RealParaItemAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RealParaListAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleVarDecAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeSpecifyAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ValAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VarDecAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VarListAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VarNameAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StructDecAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums_Structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EndAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RealAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherSymAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IdentifierAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CharAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IntAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="unitTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FromAutoTools\Reader.h">
+      <Filter>头文件\FromAutoTools</Filter>
+    </ClInclude>
+    <ClInclude Include="FromAutoTools\ProductionSym.h">
+      <Filter>头文件\FromAutoTools</Filter>
+    </ClInclude>
+    <ClInclude Include="FromAutoTools\Production.h">
+      <Filter>头文件\FromAutoTools</Filter>
+    </ClInclude>
+    <ClInclude Include="FromLexer\header.h">
+      <Filter>头文件\FromLexer</Filter>
+    </ClInclude>
+    <ClInclude Include="FromLexer\MyLexer.h">
+      <Filter>头文件\FromLexer</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpListAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ValListAST.h">
+      <Filter>头文件\AST头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

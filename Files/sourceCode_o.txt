@@ -1,0 +1,83 @@
+int nA = 10;
+struct B{
+	int m;
+	char* c = "aaa";
+};
+struct A{
+	int m = 3;
+	//struct A a;//报错：结构体内不能声明结构体变量
+	struct A* pA;
+	//struct B b;//报错：结构体内不能声明结构体变量
+	struct B* pB;
+	//int m;//报错：成员变量重定义
+	//char chars[] = {'a','b','c',"MyString"};//报错：数据列表类型不一致
+};
+int main()
+{
+	struct A* a;
+	//c = 0;
+	a->m = 1;
+	(*a).m = 1;
+	return a->m;
+}
+void fun()
+{
+	char* c = "abc";
+	char* carr[] = {"ab","bc"};
+	carr[0] = c;
+	int a;
+	struct B* sB;
+	struct B b;
+	a = main();
+	//a = func1();//报错:函数未定义
+	struct A arr[3];
+	
+	//arr[0].k = 1;//报错:结构体中没有此变量
+	arr[0].m = 1;
+	arr[0].pB = sB;
+	*(arr[0].pB) = b;
+	//real a;//报错：变量重定义
+	//void c;//报错：不能定义void类型的变量
+	
+	return ;
+}
+int fun0(int a,real b)
+{
+	a = 10;
+	b = 15.0;
+}
+
+int func1()
+{
+	int fn;
+	//int f = fun0(5.0);//参数列表不匹配
+	int f = fun0(fn,5.0);
+	//a = 10;//报错:变量不存在
+	
+	//nA = 1.1;//报错：赋值语句左右部类型不匹配
+	nA = 1;
+	
+	int** a;
+	//*a = 10;//报错：赋值语句左右部类型不匹配
+	**a = 10;
+	//***a = 10;//报错：只有指针类型变量才能使用*运算符
+	
+	//int k = {1,2};//报错：不能为非数组变量赋数组初值
+	
+	int k[] = {1,2};
+	f = k[0];
+	int newInt = k[0]+1;
+	real b;
+	
+	if(k[0] <= newInt+1)
+	{
+		int b = 1;
+		int varIf = 10;
+	}
+	else
+	{
+	
+	}
+	//varIf = 1;报错：变量不存在
+}
+$

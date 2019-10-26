@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{27BF6565-3487-46CE-920C-7A29DCB9B544}</ProjectGuid>
+    <RootNamespace>Parser</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AssignStmtAST.cpp" />
+    <ClCompile Include="AST.cpp" />
+    <ClCompile Include="BreakStmtAST.cpp" />
+    <ClCompile Include="CharAST.cpp" />
+    <ClCompile Include="ContinueStmtAST.cpp" />
+    <ClCompile Include="DecExpAST.cpp" />
+    <ClCompile Include="DecVarNameAST.cpp" />
+    <ClCompile Include="DirectTypeSpecifyAST.cpp" />
+    <ClCompile Include="EndAST.cpp" />
+    <ClCompile Include="ExpAST.cpp" />
+    <ClCompile Include="ExpListAST.cpp" />
+    <ClCompile Include="FormalParaItemAST.cpp" />
+    <ClCompile Include="FormalParaListAST.cpp" />
+    <ClCompile Include="FromAutoTools\Production.cpp" />
+    <ClCompile Include="FromAutoTools\ProductionSym.cpp" />
+    <ClCompile Include="FromAutoTools\Reader.cpp" />
+    <ClCompile Include="FromLexer\MyLexer.cpp" />
+    <ClCompile Include="FuncCallStmtAST.cpp" />
+    <ClCompile Include="FuncDefineAST.cpp" />
+    <ClCompile Include="IdentifierAST.cpp" />
+    <ClCompile Include="IdItemAST.cpp" />
+    <ClCompile Include="IdListAST.cpp" />
+    <ClCompile Include="IfStmtAST.cpp" />
+    <ClCompile Include="IntAST.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyParser.cpp" />
+    <ClCompile Include="NumberAST.cpp" />
+    <ClCompile Include="OperatorAST.cpp" />
+    <ClCompile Include="OtherSymAST.cpp" />
+    <ClCompile Include="PointerAST.cpp" />
+    <ClCompile Include="PointerTypeSpecifyAST.cpp" />
+    <ClCompile Include="ProgramAST.cpp" />
+    <ClCompile Include="RealAST.cpp" />
+    <ClCompile Include="RealParaItemAST.cpp" />
+    <ClCompile Include="RealParaListAST.cpp" />
+    <ClCompile Include="ReturnStmtAST.cpp" />
+    <ClCompile Include="SingleVarDecAST.cpp" />
+    <ClCompile Include="StmtAST.cpp" />
+    <ClCompile Include="StmtsAST.cpp" />
+    <ClCompile Include="StringAST.cpp" />
+    <ClCompile Include="Struct.cpp" />
+    <ClCompile Include="StructDecAST.cpp" />
+    <ClCompile Include="TypeAST.cpp" />
+    <ClCompile Include="TypeSpecifyAST.cpp" />
+    <ClCompile Include="unitTest.cpp" />
+    <ClCompile Include="ValAST.cpp" />
+    <ClCompile Include="ValListAST.cpp" />
+    <ClCompile Include="VarDecAST.cpp" />
+    <ClCompile Include="Variable.cpp" />
+    <ClCompile Include="VarListAST.cpp" />
+    <ClCompile Include="VarNameAST.cpp" />
+    <ClCompile Include="WhileStmtAST.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssignStmtAST.h" />
+    <ClInclude Include="AST.h" />
+    <ClInclude Include="BreakStmtAST.h" />
+    <ClInclude Include="CharAST.h" />
+    <ClInclude Include="ContinueStmtAST.h" />
+    <ClInclude Include="DecExpAST.h" />
+    <ClInclude Include="DecVarNameAST.h" />
+    <ClInclude Include="DirectTypeSpecifyAST.h" />
+    <ClInclude Include="EndAST.h" />
+    <ClInclude Include="Enums_Structs.h" />
+    <ClInclude Include="ExpAST.h" />
+    <ClInclude Include="ExpListAST.h" />
+    <ClInclude Include="FormalParaItemAST.h" />
+    <ClInclude Include="FormalParaListAST.h" />
+    <ClInclude Include="FromAutoTools\Production.h" />
+    <ClInclude Include="FromAutoTools\ProductionSym.h" />
+    <ClInclude Include="FromAutoTools\Reader.h" />
+    <ClInclude Include="FromLexer\header.h" />
+    <ClInclude Include="FromLexer\MyLexer.h" />
+    <ClInclude Include="FuncCallStmtAST.h" />
+    <ClInclude Include="FuncDefineAST.h" />
+    <ClInclude Include="IdentifierAST.h" />
+    <ClInclude Include="IdItemAST.h" />
+    <ClInclude Include="IdListAST.h" />
+    <ClInclude Include="IfStmtAST.h" />
+    <ClInclude Include="IntAST.h" />
+    <ClInclude Include="MyParser.h" />
+    <ClInclude Include="NumberAST.h" />
+    <ClInclude Include="OperatorAST.h" />
+    <ClInclude Include="OtherSymAST.h" />
+    <ClInclude Include="PointerAST.h" />
+    <ClInclude Include="PointerTypeSpecifyAST.h" />
+    <ClInclude Include="ProgramAST.h" />
+    <ClInclude Include="RealAST.h" />
+    <ClInclude Include="RealParaItemAST.h" />
+    <ClInclude Include="RealParaListAST.h" />
+    <ClInclude Include="ReturnStmtAST.h" />
+    <ClInclude Include="SingleVarDecAST.h" />
+    <ClInclude Include="StmtAST.h" />
+    <ClInclude Include="StmtsAST.h" />
+    <ClInclude Include="StringAST.h" />
+    <ClInclude Include="Struct.h" />
+    <ClInclude Include="StructDecAST.h" />
+    <ClInclude Include="TypeAST.h" />
+    <ClInclude Include="TypeSpecifyAST.h" />
+    <ClInclude Include="unitTest.h" />
+    <ClInclude Include="ValAST.h" />
+    <ClInclude Include="ValListAST.h" />
+    <ClInclude Include="VarDecAST.h" />
+    <ClInclude Include="Variable.h" />
+    <ClInclude Include="VarListAST.h" />
+    <ClInclude Include="VarNameAST.h" />
+    <ClInclude Include="WhileStmtAST.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
