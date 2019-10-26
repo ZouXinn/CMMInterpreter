@@ -1,0 +1,20 @@
+有间隔版本:
+ ->    .               !                          *                       -(单目)                     +                      -
+nnn nnn nnnnnnnnnnnnn nnnnnnnnnnnnn nnnnnnnnnnnnn nnyyynnnnnnnn nnyyynnnnnnnn
+             *                       /                          %                       >                       <
+nnnnnnnnnnnnn nnnnnnnnnnnnn nnnnnnnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn
+            >=                   <=                   ==                      <>                     &&                    ||
+yyyyynnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn yyyyyyyyyyynn yyyyyyyyyyyyn
+
+
+3个代表( -> . [) -> (nnn)
+13个分别代表(+ - * / % > < >= <= == <> && ||)->(yyyyynnnnnnnn)
+无间隔版本:
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnyyynnnnnnnnnnyyynnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyynnnnnnnnyyyyyyyyyyynnyyyyyyyyyyyyn
+
+
+
+new:
+nnn nnn nnnnnnnnnnnnn nnnnnnnnnnnnn nnnnnnnnnnnnn nnyyynnnnnnnn nnyyynnnnnnnn
+nnnnnnnnnnnnn nnnnnnnnnnnnn nnnnnnnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn
+yyyyynnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn yyyyynnnnnnnn yyyyyyyyyyynn yyyyyyyyyyyyn

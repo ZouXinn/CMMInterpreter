@@ -1,0 +1,4 @@
+git remote add origin https://github.com/WHU-ZX/Test.git
+git push -u origin master
+
+git remote add origin https://github.com/MIAOxinquan/Horizon_Team
