@@ -9,11 +9,8 @@ void fun(real k){
 
 int main()
 {
-	int ** a;
-	int *b[] = {*a,*a};
-	char* ch = " ";
-	char c= ' ';
-	real m = 1,n[] = {1,2.0,3};
-	fun(2);
+	int a = 0;
+	int b = a  - 1;
+	a = b - 2;
 }
 $
