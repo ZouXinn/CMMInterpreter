@@ -5,6 +5,7 @@
 #include<map>
 #include <string>
 #include <sstream>
+#include <fstream>
 using namespace std;
 const int maxn = 123;
 int n;
@@ -45,6 +46,7 @@ void testMap();
 void testStr2Int();
 void testStr2Double();
 void testMap1();
+void testReadFile();
 int main()
 {
 
@@ -57,10 +59,27 @@ int main()
 	cout << (-min > -a);*/
 	//testStr2Double();
 	//Token token = a;
-	int a = 1;
-	cout << (-(unsigned)a);
+	testReadFile();
+	
 }
+void testReadFile()
+{
+	const char* file = "..//Files//MyProductions.txt";
+	string str;
 
+	ifstream fin;
+	fin.open(file, ios::in);
+	stringstream buf;
+	buf << fin.rdbuf();
+	str = buf.str();
+
+	const char* ccp = str.c_str();
+	char* cp = const_cast<char*>(ccp);
+	cout << cp;
+	fin.close();
+	system("pause");
+	
+}
 void testStr2Double()
 {
 	string s = "15.3";

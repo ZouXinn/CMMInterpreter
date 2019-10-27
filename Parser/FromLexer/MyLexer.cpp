@@ -828,6 +828,7 @@ SourceCode* MyLexer::readSourceCode(const char* fileName,bool isFile)
 		in.read(sc->buffer, sc->length);
 		in.close();
 		char* tCp = sc->buffer;
+
 		if (sc->length > 0)
 		{
 			bool find = false;
