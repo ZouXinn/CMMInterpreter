@@ -3991,6 +3991,10 @@ void MyParser::Parse()
 				//静态语义检查 start
 #ifdef STATIC
 				string funcName = id->identifier;
+				/*if (funcName != "read" && funcName != "write")
+				{
+
+				}*/
 				if (definedFuncs->count(funcName) == 1)
 				{
 					bool find = false;
@@ -4364,9 +4368,14 @@ Action MyParser::getAction(Symbol* symbol)//终结符使用
 }
 
 
+void MyParser::initRead()//输入列表为空，返回值为int real char 或 char*
+{
+	//vector<FuncDefineAST*> 
+}
+void MyParser::initWrite()//输入为int real char 或 char* ，返回值为void
+{
 
-
-
+}
 
 void MyParser::initToken2StrP()
 {

@@ -189,6 +189,8 @@ private:
 	void addStructFromStructDec(StructDecAST* structDec);
 	void addFuncFromFuncDefine(FuncDefineAST* funcDefine);
 	void addDecExp(DecExpAST* decExp);
+	void initRead();
+	void initWrite();
 
 	//DFAtools ÀïÃæµÄ
 	static map<DicIndex, string>* readSLR1Table(const char* sourceFileName);

@@ -30,13 +30,13 @@ ExpAST::ExpAST(ValAST* valAST)//<val>
 ExpAST::ExpAST(VarNameAST* varNameAST)//<var_name>
 {
 	this->varNameAST = varNameAST;
-	this->type = 4;
+	this->type = 3;
 }
 
 ExpAST::ExpAST(FuncCallStmtAST* funcCallStmtAST)
 {
 	this->funcCallStmtAST = funcCallStmtAST;
-	this->type = 5;
+	this->type = 4;
 }
 
 void ExpAST::setType(zx::Type expType)
